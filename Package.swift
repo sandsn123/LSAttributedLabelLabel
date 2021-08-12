@@ -21,6 +21,7 @@ let package = Package(
         .target(
             name: "LSAttributedLabelLabel",
             dependencies: [],
+            path: "LSAttributedLabelLabel",
             publicHeadersPath: "include",
             cSettings: [
                 .headerSearchPath("."),
